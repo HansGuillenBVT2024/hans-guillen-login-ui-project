@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Brush Script MT, sans-serif;
+}
+
+body{
+    background-color: rgb(18, 24, 77);
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/digital-art-with-city-landscape-architecture_23-2151065706.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px); /* Adjust the blur level as needed */
+    z-index: -1;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-box {
+    background-color: rgb(18, 24, 77);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(168, 166, 0);
+    padding: 20px;
+    min-width: 300px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 1px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.inputs {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0052aa;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(168, 166, 0);
+    ;
+}
